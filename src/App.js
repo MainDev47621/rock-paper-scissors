@@ -56,6 +56,7 @@ function App() {
 
   return (
     <div className="App">
+      <h1 class="title">Rock Paper Scissors</h1>
       <Scoreboard userSc={userScore} compSc={compScore} />
       <Result text={result} />
       <ChoicesBar clickChoice={playGame} />

@@ -6,6 +6,16 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+.App {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    font-size: 48px;
+}
+
 .choices {
     display: block;
 }
@@ -24,6 +34,11 @@ body {
 .score-box {
     width: 50%;
     position: relative;
+}
+
+.center-horiz {
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .score-box .score {
